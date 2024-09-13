@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".practical_5">
+
+    <TextView
+        android:id="@+id/main_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Relative Layout Example"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/fname_txt"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/main_textview"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="First Name : "
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_alignBaseline="@id/fname_txt"
+        android:layout_toEndOf="@id/fname_txt"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lname_txt"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/fname_txt"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="Last Name : "
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_alignBaseline="@id/lname_txt"
+        android:layout_toEndOf="@id/lname_txt"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/lname_txt"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="Phone No. : "
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_alignBaseline="@id/phone"
+        android:layout_toEndOf="@id/phone"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/phone"
+        android:layout_marginLeft="100dp"/>
+
+</RelativeLayout>
