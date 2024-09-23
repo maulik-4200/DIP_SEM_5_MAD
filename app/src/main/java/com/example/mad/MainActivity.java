@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button p1, p2, p3, p4, p5, p6;
+    Button p1, p2, p3, p4, p5, p6, p7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +76,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, practical_6.class);
+                startActivity(intent);
+            }
+        });
+
+        p7 = findViewById(R.id.p7);
+        p7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, practical_7.class);
                 startActivity(intent);
             }
         });
