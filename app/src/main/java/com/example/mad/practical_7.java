@@ -18,12 +18,12 @@ public class practical_7 extends AppCompatActivity {
     ListView list;
     String names[] = {
             "Maulik Hiteshkumar Thumar",
-            "Smit Khageshkumar Patel",
+            "Patel Smit Pankajkumar",
             "Prajapati Savan Ashokbhai",
             "Prajapati Dhruv Rajnikantbhai",
             "Divy Maheshbhai Patel",
             "Maulik Hiteshkumar Thumar",
-            "Smit Khageshkumar Patel",
+            "Smit Pankajkumar Patel",
             "Prajapati Savan Ashokbhai",
             "Prajapati Dhruv Rajnikantbhai",
             "Divy Maheshbhai Patel",
@@ -31,12 +31,12 @@ public class practical_7 extends AppCompatActivity {
 
     String enroll_no[] = {
             "226400316221",
-            "226400316147",
+            "226400316148",
             "226400316176",
             "226400316169",
             "226230316113",
             "226400316221",
-            "226400316147",
+            "226400316148",
             "226400316176",
             "226400316169",
             "226230316113",
